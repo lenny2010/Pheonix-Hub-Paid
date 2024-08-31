@@ -106,7 +106,7 @@ function MakeScriptHub()
         Callback = function()
                   print("button pressed")
                 MakeScriptHub()
-                loadstring(game:HttpGet('https://raw.githubusercontent.com/lenny2010/radaarr/main/.lua'))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhenX201/fe-radar-script/main/source"))()
           end
     })
 
@@ -163,6 +163,15 @@ function MakeScriptHub()
                   print("button pressed")
                 MakeScriptHub()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/lenny2010/flyhack/main/.lua"))() 
+          end
+    })
+
+    Tab:AddButton({
+        Name = "SpeedHack",
+        Callback = function()
+                  print("button pressed")
+                MakeScriptHub()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/lenny2010/speedhack/main/.lua"))() 
           end
     })
 
