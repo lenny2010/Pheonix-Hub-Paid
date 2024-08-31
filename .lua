@@ -51,7 +51,7 @@ function MakeScriptHub()
         Callback = function()
                   print("button pressed")
                 MakeScriptHub()
-                loadstring(game:HttpGet('https://raw.githubusercontent.com/lenny2010/ESP2/main/.lua'))()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/lenny2010/espspp/main/.lua'))()
           end
     })
 
