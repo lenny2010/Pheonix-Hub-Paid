@@ -30,7 +30,7 @@ function MakeScriptHub()
         Callback = function()
                   print("button pressed")
                 MakeScriptHub()
-                loadstring(game:HttpGet('https://raw.githubusercontent.com/lenny2010/aimbot/main/.lua'))()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/lenny2010/aimbotpaid/main/.lua'))()
           end
     })
     
