@@ -78,7 +78,7 @@ function MakeScriptHub()
         Callback = function()
                   print("button pressed")
                 MakeScriptHub()
-                loadstring(game:HttpGet('https://raw.githubusercontent.com/lenny2010/chamsee/main/.lua'))() 
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/lenny2010/CHAMS3/main/.lua'))() 
           end
     })
 
@@ -182,7 +182,7 @@ function MakeScriptHub()
         Callback = function()
                   print("button pressed")
                 MakeScriptHub()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/lenny2010/antikick/main/.lua"))() 
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/lenny2010/antivote/main/.lua"))() 
           end
     })
 
