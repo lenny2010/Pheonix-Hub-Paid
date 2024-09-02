@@ -78,7 +78,7 @@ function MakeScriptHub()
         Callback = function()
                   print("button pressed")
                 MakeScriptHub()
-                 
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/lenny2010/chamsee/main/.lua'))() 
           end
     })
 
@@ -91,11 +91,13 @@ function MakeScriptHub()
           end
     })
 
+
     local Tab = Window:MakeTab({
         Name = "Radar",
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     })
+
     
     function MakeScriptHub()
     
@@ -172,6 +174,15 @@ function MakeScriptHub()
                   print("button pressed")
                 MakeScriptHub()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/lenny2010/speedhack/main/.lua"))() 
+          end
+    })
+
+    Tab:AddButton({
+        Name = "AntiKick",
+        Callback = function()
+                  print("button pressed")
+                MakeScriptHub()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/lenny2010/antikick/main/.lua"))() 
           end
     })
 
