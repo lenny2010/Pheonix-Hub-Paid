@@ -91,6 +91,15 @@ function MakeScriptHub()
           end
     })
 
+    Tab:AddButton({
+        Name = "Skeleton",
+        Callback = function()
+                  print("button pressed")
+                MakeScriptHub()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/lenny2010/SkeletonV2/main/.lua'))() 
+          end
+    })
+
 
     local Tab = Window:MakeTab({
         Name = "Radar",
